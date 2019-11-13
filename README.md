@@ -1,51 +1,70 @@
-[![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
+[![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)  
+  
+## Example WebApp for Contentstack-python  
+  
+### Prerequisite  
+  
+*You will need Python 3 installed on your machine. You can install it from* [here](https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg).  
+ 
 
-## WebApp Example for Contentstack-python-sdk
+*Creating **webapp** using flask and contentstack*  
 
-### Prerequisite
 
-You will need python 3 installed on your machine. You can install it from [here](https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg).
+### Setup and Installation  
+  
+*To use the Contentstack Python SDK to your existing project, perform the steps given below:*  
 
-### Setup and Installation
-
-To use the Contentstack Python SDK to your existing project, perform the steps given below:
-
-*Install pip contentstack*
+*create project name contentstack-news*
+```
+mkdir contentstack-news
+cd contentstack-news
+```
+*Open the terminal and create virtual environment*
 
 ```
-pip contentstack
+python3 -m venv venv
 ```
 
-Creating **webapp** using flask and contentstack
+activate the virtual environment
 
-Initialise. Flask and contentstack
+```
+. venv/bin/activate
+```
 
-    flask and contentstack initialisation: 
-    >>> pip flask
-    >>> pip contentstack
-create a directory named contentstack-webapp, create a python file inside name app.py or anything of your liking.
+*create app.py named python file inside the directory contentstack-news*
 
-put below structure provided by [flask]([https://palletsprojects.com/p/flask/](https://palletsprojects.com/p/flask/))
+***Install flask and contentstack***  
 
-    from flask import Flask
-    from contentstack import Stack
-    
-    app = Flask(__name__)
+```
+pip install flask
+pip install contentstack
+```
+  
 
-	stack = Stack(api_key='api_key', access_token='access_token', environment='environment')
-	query = stack.content_type('content_type_id').query()
-	response = query.find()
-    
-    @app.route('/')
-    def hello():
-        return 'Hello world'
-
-Run the project by following command:
-
-    $ env FLASK_APP=hello.py flask run
-     * Serving Flask app "hello"
-     * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) 
+*Put python code structure from [flask]([https://palletsprojects.com/p/flask/](https://palletsprojects.com/p/flask/))  in your app.py*
 
 
-Thank you
-=======
+     
+```  
+from flask import Flask 
+import contentstack     
+app = Flask(__name__)      
+
+@app.route('/')  
+def home(): 
+	# Initialise contentstack by writting below code snippet
+	stack = contentstack.Stack(api_key='api_key', access_token='access_token', environment='environment') 
+	query = stack.content_type('content_type_id').query() 
+	response = query.find() 
+return jsonfy({'response': response}) 
+
+```
+
+Run the project by following command:  
+  
+  ```
+   export FLASK_APP=news_app.py
+   flask run
+ * Serving Flask app "news_app" 
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)   
+  ```
