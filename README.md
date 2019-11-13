@@ -68,3 +68,9 @@ Run the project by following command:
  * Serving Flask app "news_app" 
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)   
   ```
+
+
+  ### Screenshot
+
+  <img src='https://github.com/contentstack/contentstack-python-news-webapp/blob/master/static/news_app.png' width='800' height='550'/>
+
