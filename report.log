@@ -1,0 +1,51 @@
+2019-11-05 13:24:38,494 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-05 13:25:19,835 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 13:25:20,131 - 127.0.0.1 - - [05/Nov/2019 13:25:20] "GET / HTTP/1.1" 200 -
+2019-11-05 13:27:02,798 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-05 13:27:09,452 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 13:27:09,696 - 127.0.0.1 - - [05/Nov/2019 13:27:09] "GET / HTTP/1.1" 200 -
+2019-11-05 13:27:30,239 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 13:27:30,367 - 127.0.0.1 - - [05/Nov/2019 13:27:30] "GET / HTTP/1.1" 200 -
+2019-11-05 13:27:30,824 - 127.0.0.1 - - [05/Nov/2019 13:27:30] "GET /about HTTP/1.1" 200 -
+2019-11-05 13:27:31,629 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 13:27:31,749 - 127.0.0.1 - - [05/Nov/2019 13:27:31] "GET / HTTP/1.1" 200 -
+2019-11-05 13:27:32,399 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 13:27:32,512 - 127.0.0.1 - - [05/Nov/2019 13:27:32] "GET / HTTP/1.1" 200 -
+2019-11-05 13:27:42,800 - 127.0.0.1 - - [05/Nov/2019 13:27:42] "GET /about HTTP/1.1" 200 -
+2019-11-05 13:27:43,525 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 13:27:43,655 - 127.0.0.1 - - [05/Nov/2019 13:27:43] "GET / HTTP/1.1" 200 -
+2019-11-05 15:41:32,758 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-05 15:41:40,464 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:41:40,932 - 127.0.0.1 - - [05/Nov/2019 15:41:40] "GET / HTTP/1.1" 200 -
+2019-11-05 15:41:47,129 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:41:47,287 - 127.0.0.1 - - [05/Nov/2019 15:41:47] "GET / HTTP/1.1" 200 -
+2019-11-05 15:41:47,691 - 127.0.0.1 - - [05/Nov/2019 15:41:47] "GET /about HTTP/1.1" 200 -
+2019-11-05 15:41:48,412 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:41:48,529 - 127.0.0.1 - - [05/Nov/2019 15:41:48] "GET / HTTP/1.1" 200 -
+2019-11-05 15:41:49,058 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:41:49,246 - 127.0.0.1 - - [05/Nov/2019 15:41:49] "GET / HTTP/1.1" 200 -
+2019-11-05 15:41:49,947 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:41:50,096 - 127.0.0.1 - - [05/Nov/2019 15:41:50] "GET / HTTP/1.1" 200 -
+2019-11-05 15:44:28,524 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-05 15:44:36,812 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:44:37,178 - 127.0.0.1 - - [05/Nov/2019 15:44:37] "GET / HTTP/1.1" 200 -
+2019-11-05 15:45:13,850 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:45:13,971 - 127.0.0.1 - - [05/Nov/2019 15:45:13] "GET / HTTP/1.1" 200 -
+2019-11-05 15:45:14,677 - 127.0.0.1 - - [05/Nov/2019 15:45:14] "GET /about HTTP/1.1" 200 -
+2019-11-05 15:45:15,853 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:45:16,044 - 127.0.0.1 - - [05/Nov/2019 15:45:16] "GET / HTTP/1.1" 200 -
+2019-11-05 15:45:18,463 - 127.0.0.1 - - [05/Nov/2019 15:45:18] "GET /about HTTP/1.1" 200 -
+2019-11-05 15:47:39,279 - 127.0.0.1 - - [05/Nov/2019 15:47:39] "GET /about HTTP/1.1" 200 -
+2019-11-05 15:47:46,094 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:47:46,303 - 127.0.0.1 - - [05/Nov/2019 15:47:46] "GET / HTTP/1.1" 200 -
+2019-11-05 15:47:53,294 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:47:53,417 - 127.0.0.1 - - [05/Nov/2019 15:47:53] "GET / HTTP/1.1" 200 -
+2019-11-05 15:47:57,051 - 127.0.0.1 - - [05/Nov/2019 15:47:57] "GET /about HTTP/1.1" 200 -
+2019-11-05 15:47:58,335 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:47:58,458 - 127.0.0.1 - - [05/Nov/2019 15:47:58] "GET / HTTP/1.1" 200 -
+2019-11-05 15:48:16,513 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-05 15:48:39,363 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:48:39,725 - 127.0.0.1 - - [05/Nov/2019 15:48:39] "GET / HTTP/1.1" 200 -
+2019-11-05 15:48:46,203 - 127.0.0.1 - - [05/Nov/2019 15:48:46] "GET /about HTTP/1.1" 200 -
+2019-11-05 15:48:47,496 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-05 15:48:47,897 - 127.0.0.1 - - [05/Nov/2019 15:48:47] "GET / HTTP/1.1" 200 -
