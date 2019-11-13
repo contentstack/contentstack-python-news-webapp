@@ -49,3 +49,17 @@
 2019-11-05 15:48:46,203 - 127.0.0.1 - - [05/Nov/2019 15:48:46] "GET /about HTTP/1.1" 200 -
 2019-11-05 15:48:47,496 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
 2019-11-05 15:48:47,897 - 127.0.0.1 - - [05/Nov/2019 15:48:47] "GET / HTTP/1.1" 200 -
+2019-11-13 16:47:54,973 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-13 16:48:27,454 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-13 16:48:35,291 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-13 16:48:35,510 - 127.0.0.1 - - [13/Nov/2019 16:48:35] "GET / HTTP/1.1" 200 -
+2019-11-13 16:48:35,603 - 127.0.0.1 - - [13/Nov/2019 16:48:35] "GET /static/main.css HTTP/1.1" 200 -
+2019-11-13 16:48:37,648 - 127.0.0.1 - - [13/Nov/2019 16:48:37] "GET /favicon.ico HTTP/1.1" 404 -
+2019-11-13 16:48:48,314 - 127.0.0.1 - - [13/Nov/2019 16:48:48] "GET /about HTTP/1.1" 200 -
+2019-11-13 16:48:55,350 - 127.0.0.1 - - [13/Nov/2019 16:48:55] "GET /about HTTP/1.1" 200 -
+2019-11-13 16:48:56,109 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-13 16:48:56,219 - 127.0.0.1 - - [13/Nov/2019 16:48:56] "GET / HTTP/1.1" 200 -
+2019-11-13 16:49:02,582 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-13 16:49:02,685 - 127.0.0.1 - - [13/Nov/2019 16:49:02] "GET / HTTP/1.1" 200 -
+2019-11-13 16:49:03,286 - https://cdn.contentstack.io/v3/content_types/news/entries?environment=production
+2019-11-13 16:49:03,392 - 127.0.0.1 - - [13/Nov/2019 16:49:03] "GET / HTTP/1.1" 200 -
