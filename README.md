@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
 
 ## WebApp Example for Contentstack-python-sdk
@@ -51,3 +52,6 @@ Run the project by following command:
 That's It. 
 
 Thank you
+=======
+# contentstack-python-news-webapp
+>>>>>>> 4d8e3a7bddec3569cd84ff9bef8183502e0331b9
