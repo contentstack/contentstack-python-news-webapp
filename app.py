@@ -1,20 +1,18 @@
 from flask import Flask, render_template, url_for
-from contentstack import Stack
+import contentstack
 
 app = Flask(__name__)
-
-
-def fetch_news():
-    stack = Stack(api_key='blt920bb7e90248f607', access_token='blt0c4300391e033d4a59eb2857', environment='production')
-    query = stack.content_type('news').query()
-    response = query.find()
-    return response
+    
 
 
 @app.route('/')
 @app.route('/home')
-def home():
-    headlines = fetch_news()
+def news():
+    
+    stack = contentstack.Stack(api_key='blt920bb7e90248f607', access_token='blt0c4300391e033d4a59eb2857', environment='production')
+    query = stack.content_type('news').query()
+    headlines = query.find()
+
     return render_template('home.html', news=headlines, title="home")
 
 
