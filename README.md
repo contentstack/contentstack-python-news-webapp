@@ -1,76 +1,28 @@
 [![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)  
   
-## Example WebApp for Contentstack-python  
-  
-### Prerequisite  
-  
-*You will need Python 3 installed on your machine. You can install it from* [here](https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg).  
- 
+## Example WebApp for Contentstack-python
 
-*Creating **webapp** using flask and contentstack*  
+**About Contentstack:** *Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.*
 
-
-### Setup and Installation  
-  
-*To use the Contentstack Python SDK to your existing project, perform the steps given below:*  
-
-*create project name contentstack-news*
-```
-mkdir contentstack-news
-cd contentstack-news
-```
-*Open the terminal and create virtual environment*
-
-```
-python3 -m venv venv
-```
-
-activate the virtual environment
-
-```
-. venv/bin/activate
-```
-
-*create app.py named python file inside the directory contentstack-news*
-
-***Install flask and contentstack***  
-
-```
-pip install flask
-pip install contentstack
-```
   
 
-*Put python code structure from [flask]([https://palletsprojects.com/p/flask/](https://palletsprojects.com/p/flask/))  in your app.py*
+**About this project:** *Create a Python news app using Contentstack Python SDK.*
 
-
-     
-```  
-from flask import Flask 
-import contentstack     
-app = Flask(__name__)      
-
-@app.route('/')  
-def home(): 
-	# Initialise contentstack by writting below code snippet
-	stack = contentstack.Stack(api_key='api_key', access_token='access_token', environment='environment') 
-	query = stack.content_type('content_type_id').query() 
-	response = query.find() 
-return jsonfy({'response': response}) 
-
-```
-
-Run the project by following command:  
   
-  ```
-   export FLASK_APP=news_app.py
-   flask run
- * Serving Flask app "news_app" 
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)   
-  ```
+
+**Screenshot**
+
+  <img src='https://github.com/contentstack/contentstack-python-news-webapp/blob/master/static/news_app.png' width='700' height='500'/>
 
 
-  ### Screenshot
+**Tutorial**
 
-  <img src='https://github.com/contentstack/contentstack-python-news-webapp/blob/master/static/news_app.png' width='800' height='550'/>
+We have created an in-depth tutorial on how you can create a Python news app using Contentstack Python SDK. Refer to the steps given in the following tutorial to create a fully functional Android news app.
 
+  
+
+[Create a Python news app using Contentstack Python SDK](https://www.contentstack.com/docs/example-apps/build-a-python-news-app-using-contentstacks-python-sdk)
+
+**Documentation**
+
+Read Contentstack *[docs](https://www.contentstack.com/docs)*
