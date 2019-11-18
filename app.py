@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('/home')
+@app.route('/news')
 def news():
     
     stack = contentstack.Stack(api_key='***REMOVED***', access_token='***REMOVED***', environment='production')
