@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/shaileshmishra/Documents/contentstack/workspace/python/Example/contentstack-python-news-webapp/venv"
+VIRTUAL_ENV="/Users/shaileshmishra/Documents/contentstack/workspace/python/flask/contentstack-python-news-webapp/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
