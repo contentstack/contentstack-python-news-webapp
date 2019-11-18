@@ -12,7 +12,7 @@
 
 **Screenshot**
 
-  <img src='https://github.com/contentstack/contentstack-python-news-webapp/blob/master/static/news_app.png' width='700' height='500'/>
+  <img src='https://github.com/contentstack/contentstack-python-news-webapp/blob/master/static/news_app.png' width='500' height='500'/>
 
 
 **Tutorial**
