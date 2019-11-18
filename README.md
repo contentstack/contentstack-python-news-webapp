@@ -2,11 +2,11 @@
   
 ## Example WebApp for Contentstack-python
 
-**About Contentstack:** *Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.*
+**About Contentstack:** Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
 
   
 
-**About this project:** *Create a Python news app using Contentstack Python SDK.*
+**About this project:** Create a Python news app using Contentstack Python SDK.
 
   
 
