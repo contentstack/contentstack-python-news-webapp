@@ -1,4 +1,4 @@
-#!/Users/shaileshmishra/Documents/contentstack/workspace/python/Example/contentstack-python-news-webapp/venv/bin/python3
+#!/Users/shaileshmishra/Documents/contentstack/workspace/python/flask/contentstack-python-news-webapp/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
