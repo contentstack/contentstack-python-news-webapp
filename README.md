@@ -17,7 +17,7 @@
 
 **Tutorial**
 
-We have created an in-depth tutorial on how you can create a Python news app using Contentstack Python SDK. Refer to the steps given in the following tutorial to create a fully functional Android news app.
+We have created an in-depth tutorial on how you can create a Python news app using Contentstack Python SDK. Refer to the steps given in the following tutorial to create a fully functional web news app.
 
   
 
