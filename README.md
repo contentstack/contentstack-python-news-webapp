@@ -21,7 +21,7 @@ We have created an in-depth tutorial on how you can create a Python news app usi
 
   
 
-[Create a Python news app using Contentstack Python SDK](https://www.contentstack.com/docs/example-apps/build-a-python-news-app-using-contentstacks-python-sdk)
+[Create a Python news app using Contentstack Python SDK](https://www.contentstack.com/docs/developers/sample-apps/build-a-python-news-app-using-contentstack-python-sdk)
 
 **Documentation**
 
