@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/news')
 def news():
-    stack = contentstack.Stack('***REMOVED***', '***REMOVED***', 'production')
+    stack = contentstack.Stack('REMOVED', 'REMOVED', 'production')
     query = stack.content_type('news').query()
     headlines = query.find()
     return render_template('home.html', news=headlines, title="home")
